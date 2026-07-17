@@ -32,10 +32,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="3780" height="1962" alt="client1-dns-server-to-dc-1-ip" src="https://github.com/user-attachments/assets/c757ffda-3881-49b8-bbf9-b512893d9756" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Microsoft Azure, I changed the network interface DNS settings for the client VM (client-1312) from Azure's default DNS to a custom DNS server pointing to my Domain Controller (10.0.1.4). This allows the client to locate Active Directory services so it can join the domain and authenticate users.
 </p>
 <br />
 
