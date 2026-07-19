@@ -59,9 +59,13 @@ In this lab, I created and organized user accounts within separate Organizationa
 <br />
 
 <p>
+<img width="3738" height="1935" alt="final lockout" src="https://github.com/user-attachments/assets/0b587c22-fc29-4892-8e32-be620449ea1e" />
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The left side of the screenshot shows that the user is unable to sign in because the account has been locked after exceeding the maximum number of failed login attempts. Windows displays an error indicating that the account has been temporarily locked as a security measure to help protect against unauthorized access.
+
+
+The right side of the screenshot shows Active Directory Users and Computers with the user's account properties open on the Account tab. The account lockout was confirmed by the "Unlock account. This account is currently locked out on this Active Directory Domain Controller." option. After verifying the issue, the account was unlocked, allowing the user to authenticate successfully and regain access to domain resources.
 </p>
 <br />
