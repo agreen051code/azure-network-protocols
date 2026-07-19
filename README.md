@@ -31,6 +31,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
+<img width="3780" height="1962" alt="client1-dns-server-to-dc-1-ip" src="https://github.com/user-attachments/assets/8b0a5a89-11c2-4656-80e0-06aee508fab6" />
+
+
+</p>
+<p>
+This screenshot shows the network configuration for the client virtual machine in Microsoft Azure. The client VM's DNS settings were changed from the default Azure-provided DNS service to a custom DNS server using the Domain Controller's private IP address (10.0.1.4).
+
+On the right side of the image, the Domain Controller (dc-1) is shown with a private IP address of 10.0.1.4. On the left side, the client VM (client-1312) is configured to use that same IP address as its DNS server.
+</p>
+<br />
+
+<p>
+
+<img width="3591" height="1983" alt="creating new user" src="https://github.com/user-attachments/assets/5329cb8f-f63b-4d81-8ddc-0495271537c5" />
+
+</p>
+<p>
+This screenshot shows the New Object – User wizard in Active Directory Users and Computers (ADUC). A new user account is being created within the _ADMINS Organizational Unit.
+</p>
+<br />
+
+<p>
+
 <img width="3684" height="1971" alt="account lockout" src="https://github.com/user-attachments/assets/230b3587-5471-4220-9d26-9d3adb44e257" />
 
 </p>
