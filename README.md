@@ -39,10 +39,11 @@ In Microsoft Azure, I changed the network interface DNS settings for the client 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="3591" height="1983" alt="creating new user" src="https://github.com/user-attachments/assets/b2257b37-a3a0-47c7-b53f-cc2537ef9b3b" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot shows the New Object – User wizard in Active Directory Users and Computers. At this stage, a new user account is being created inside the _ADMINS Organizational Unit (OU) of the mydomain.com domain.
 </p>
 <br />
 
