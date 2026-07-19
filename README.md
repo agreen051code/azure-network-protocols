@@ -23,9 +23,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Preparing Active Directory in Microsoft Azure
-- Create User
+- Creating Users
 - Account Lockout Policy
-- 
+- Organizational Units
 - Dealing with account lockouts
 
 <h2>Deployment and Configuration Steps</h2>
@@ -42,7 +42,7 @@ This screenshot shows the network configuration for the client virtual machine i
 On the right side of the image, the Domain Controller (dc-1) is shown with a private IP address of 10.0.1.4. On the left side, the client VM (client-1312) is configured to use that same IP address as its DNS server.
 </p>
 <br />
-
+<h2>Creating Users</h2>
 <p>
 
 <img width="3591" height="1983" alt="creating new user" src="https://github.com/user-attachments/assets/5329cb8f-f63b-4d81-8ddc-0495271537c5" />
