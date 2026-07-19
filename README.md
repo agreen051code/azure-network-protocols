@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Creating Users with PowerShell
+- Preparing Active Directory in Microsoft Azure
+- 
 - Dealing with Account Lockouts
-- Enabling and Disabling Accounts 
-- Observing Logs
+- 
 
 <h2>Deployment and Configuration Steps</h2>
 
