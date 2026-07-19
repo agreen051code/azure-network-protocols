@@ -23,8 +23,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Preparing Active Directory in Microsoft Azure
+- Create User
 - 
-- Dealing with Account Lockouts
 - 
 
 <h2>Deployment and Configuration Steps</h2>
