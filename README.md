@@ -41,17 +41,10 @@ This screenshot shows the Group Policy Management Editor configured with an Acco
 
 <p>
 
+
+
+<p>
 <img width="3564" height="1968" alt="user ad" src="https://github.com/user-attachments/assets/2ffebece-e19c-484d-bcdc-16568ecc1bc1" />
-
-</p>
-<p>
-This screenshot shows the New Object – User wizard in Active Directory Users and Computers. At this stage, a new user account is being created inside the _ADMINS Organizational Unit (OU) of the mydomain.com domain.
-</p>
-<br />
-
-<p>
-<img width="3441" height="1962" alt="log in bume user" src="https://github.com/user-attachments/assets/dc069eab-f33c-49d4-996d-635fe4b2b7bf" />
-
 </p>
 <p>
 The _EMPLOYEES OU contains user accounts that represent employees in the organization. Organizing users into dedicated OUs makes it easier to manage accounts, delegate administrative tasks, and apply Group Policy Objects to user groups rather than configuring each account individually.
