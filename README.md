@@ -30,16 +30,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img width="3780" height="1962" alt="client1-dns-server-to-dc-1-ip" src="https://github.com/user-attachments/assets/c757ffda-3881-49b8-bbf9-b512893d9756" />
+
+<img width="3684" height="1971" alt="account lockout" src="https://github.com/user-attachments/assets/230b3587-5471-4220-9d26-9d3adb44e257" />
 
 </p>
 <p>
-In Microsoft Azure, I changed the network interface DNS settings for the client VM (client-1312) from Azure's default DNS to a custom DNS server pointing to my Domain Controller (10.0.1.4). This allows the client to locate Active Directory services so it can join the domain and authenticate users.
+This screenshot shows the Group Policy Management Editor configured with an Account Lockout Policy for the Active Directory domain. The policy was configured to lock a user account after five failed logon attempts, keep the account locked for 30 minutes, and reset the failed logon counter after 10 minutes. The Administrator account lockout setting was also enabled to apply the same protection to administrative accounts.
 </p>
 <br />
 
 <p>
-<img width="3591" height="1983" alt="creating new user" src="https://github.com/user-attachments/assets/b2257b37-a3a0-47c7-b53f-cc2537ef9b3b" />
+
+<img width="3564" height="1968" alt="user ad" src="https://github.com/user-attachments/assets/2ffebece-e19c-484d-bcdc-16568ecc1bc1" />
 
 </p>
 <p>
