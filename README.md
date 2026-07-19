@@ -24,8 +24,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Preparing Active Directory in Microsoft Azure
 - Create User
+- Account Lockout Policy
 - 
-- 
+- Dealing with account lockouts
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -70,9 +71,7 @@ This screenshot shows the Group Policy Management Editor configured with an Acco
 <img width="3564" height="1968" alt="user ad" src="https://github.com/user-attachments/assets/2ffebece-e19c-484d-bcdc-16568ecc1bc1" />
 </p>
 <p>
-The _EMPLOYEES OU contains user accounts that represent employees in the organization. Organizing users into dedicated OUs makes it easier to manage accounts, delegate administrative tasks, and apply Group Policy Objects to user groups rather than configuring each account individually.
-
-In this lab, I created and organized user accounts within separate Organizational Units to simulate how an enterprise Active Directory environment is structured. This approach simplifies administration and allows administrators to apply security and configuration policies based on a user's role or department.
+In this screenshot, I created and organized user accounts within separate Organizational Units to simulate how an enterprise Active Directory environment is structured. This approach simplifies administration and allows administrators to apply security and configuration policies based on a user's role or department.
 </p>
 <br />
 
