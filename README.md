@@ -48,10 +48,13 @@ This screenshot shows the New Object – User wizard in Active Directory Users a
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="3441" height="1962" alt="log in bume user" src="https://github.com/user-attachments/assets/dc069eab-f33c-49d4-996d-635fe4b2b7bf" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The _EMPLOYEES OU contains user accounts that represent employees in the organization. Organizing users into dedicated OUs makes it easier to manage accounts, delegate administrative tasks, and apply Group Policy Objects to user groups rather than configuring each account individually.
+
+In this lab, I created and organized user accounts within separate Organizational Units to simulate how an enterprise Active Directory environment is structured. This approach simplifies administration and allows administrators to apply security and configuration policies based on a user's role or department.
 </p>
 <br />
 
